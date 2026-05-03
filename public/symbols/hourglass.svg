@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Hourglass</title>
+  <defs>
+    <linearGradient id="frame" x1="31" y1="7" x2="99" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe6a0"/>
+      <stop offset="0.5" stop-color="#b36d18"/>
+      <stop offset="1" stop-color="#5d2500"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="43" y1="18" x2="85" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f0ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#8f5eff" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#160924" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M35 17h58v13H35zM35 98h58v13H35z" fill="url(#frame)" stroke="#ffe2a2" stroke-width="4" rx="6"/>
+    <path d="M47 30h34c0 19-5 26-15 34 10 8 15 15 15 34H47c0-19 5-26 15-34-10-8-15-15-15-34Z" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.62" stroke-width="4"/>
+    <path d="M56 43h16l-8 12zM52 90c2-12 8-18 12-22 4 4 10 10 12 22z" fill="#ffd568"/>
+    <path d="M64 55v22" stroke="#ffd568" stroke-width="4" stroke-linecap="round"/>
+    <path d="M39 30v68M89 30v68" stroke="url(#frame)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

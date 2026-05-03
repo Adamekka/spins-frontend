@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Cup</title>
+  <defs>
+    <linearGradient id="cup" x1="30" y1="16" x2="94" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0a4"/>
+      <stop offset="0.38" stop-color="#f6a839"/>
+      <stop offset="1" stop-color="#8b2d16"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#170705" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" fill="url(#cup)" stroke="#ffe39a" stroke-width="4" stroke-linejoin="round">
+    <path d="M36 24h56l-7 48c-2 16-12 25-21 25S45 88 43 72z"/>
+    <path d="M39 36H19c2 30 19 41 28 42l3-16c-11-1-18-8-21-18h10z"/>
+    <path d="M89 36h20c-2 30-19 41-28 42l-3-16c11-1 18-8 21-18H89z"/>
+    <path d="M55 94h18v15H55z"/>
+    <path d="M39 110h50v11H39z"/>
+  </g>
+  <path d="M48 34h32M51 48h26" stroke="#fff7c8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+</svg>

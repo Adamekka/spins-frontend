@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Purple Gem</title>
+  <defs>
+    <linearGradient id="gem" x1="22" y1="16" x2="101" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe7ff"/>
+      <stop offset="0.38" stop-color="#d76cff"/>
+      <stop offset="1" stop-color="#5510a0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#210042" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <path filter="url(#shadow)" d="M64 13 107 35v48l-43 32-43-32V35z" fill="url(#gem)" stroke="#f6d7ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M64 13v102M21 35h86M21 83h86M64 13 42 83l22 32 22-32z" fill="none" stroke="#ffffff" stroke-opacity="0.42" stroke-width="3"/>
+</svg>

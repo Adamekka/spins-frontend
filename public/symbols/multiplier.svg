@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Multiplier</title>
+  <defs>
+    <radialGradient id="disc" cx="36%" cy="28%" r="72%">
+      <stop stop-color="#fff1ff"/>
+      <stop offset="0.33" stop-color="#ff75ce"/>
+      <stop offset="0.68" stop-color="#7d3dff"/>
+      <stop offset="1" stop-color="#271063"/>
+    </radialGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#ff73d9" flood-opacity="0.7"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#160033" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="49" fill="url(#disc)" stroke="#ffd3fb" stroke-width="5" filter="url(#glow)"/>
+  <circle cx="64" cy="64" r="34" fill="none" stroke="#ffffff" stroke-opacity="0.36" stroke-width="5"/>
+  <path d="M43 42 85 86M85 42 43 86" stroke="#fff8ff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M43 42 85 86M85 42 43 86" stroke="#4b1aa5" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"/>
+  <path d="M64 4v14M64 110v14M4 64h14M110 64h14" stroke="#ffd3fb" stroke-width="5" stroke-linecap="round"/>
+</svg>
